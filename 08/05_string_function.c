@@ -7,10 +7,14 @@ int main(){
     char a2[] = "kumari";
     // printf("%d",strlen(st));
     strcat(a1,a2);
-    printf("%s",a1);
+    // printf("%s",a1);
     // char target[30];
     // strcpy(target,st); // target now contains "shikha"
     // printf("%s %s",st,target);
+    int a = strcmp("deep" , "joke"); // ASCII value of d is greaterthan j so result of strcmp would be -ve .// deep joke is negative
+
+    printf("%d",a);
+    
     return 0;
 
 }
