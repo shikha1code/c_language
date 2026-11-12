@@ -1,2 +1,2 @@
-fscanf(ptr,"%d",&num);
-    printf("The value of num is %d\n",num);
+char c = fgetc(ptr); // this is used to read a character from the file
+     printf("%c",c);
