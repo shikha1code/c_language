@@ -3,6 +3,7 @@
 int main(){
     char ch;
     FILE* ptr;
+    
     ptr = fopen("sooty.txt","r");
     while(1){
         ch = fgetc(ptr);
