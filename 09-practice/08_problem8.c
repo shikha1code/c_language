@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<string.h>
+#include <string.h>
  
 struct bankACC{
 
@@ -7,7 +7,7 @@ struct bankACC{
     char name[30];
     char ifsc[12];
     float balance;
-    
+
 };
 
 int main(){
